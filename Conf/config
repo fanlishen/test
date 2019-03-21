@@ -1,0 +1,25 @@
+[private_debug]
+#test environment
+tester=lishen
+environment=debug
+versionCode=testV1.0
+host=test2.nicezhuanye.com
+loginHost=/management/login.html
+loginInfo= {'SystemID':'sys_baiyun',"password":"111111","msgcode":"123456"}
+
+[online_release]
+tester = lishen
+environment = release
+versionCode = v1.0
+host=test2.nicezhuanye.com
+loginHost=/management/login.html
+loginInfo= {"SystemID":"sys_baiyun","password":"111111","msgcode":"123456"}
+
+
+[mail]
+#发送邮件信息
+smtpserver = smtp.qq.com
+sender = 417765097@qq.com
+receiver =  lishenfan1@gmail.com
+username = 417765097@qq.com
+password = xrsmoanqotaxcaja
